@@ -8,28 +8,138 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
             background-color: #f0f0f0;
         }
 
         .container {
-            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
-        h1 {
+        header,
+        section,
+        footer {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
             color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>Welcome to Divya Dave's Portfolio</h1>
-        <p>Flutter Developer</p>
+        <header>
+            <h1>Divya Dave</h1>
+            <p>Flutter Developer</p>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Divya, a passionate Flutter developer with experience in building cross-platform mobile
+                applications. I love coding and enjoy solving complex problems to create efficient and scalable
+                applications.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Flutter & Dart</li>
+                <li>Firebase</li>
+                <li>RESTful APIs</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Twinr- As Flutter Developer (Freelancer)</h3>
+                    <p>Nov 2023 - Present</p>
+                    <p>Twinr</p>
+                    <p>This project revolves around facilitating the creation of mobile applications
+                        without the need for coding. Users can generate Android and iOS
+                        applications directly from their websites.</p>
+                </li>
+                <li>
+                    <h3>Encodework Systems - As Flutter Developer</h3>
+                    <p>Sep 2022 - Aug 2023</p>
+                    <p>Airhome</p>
+                    <p>This project is totally depends on IoT.
+                        in this i have implemented UDP, Socket, MQTT ad HTTP.
+                        i have done communication to mobile to BLE devices via bluetooth.
+                        it's live on play store and app store both.
+                        i have also used complex sqflite queries in it.</p>
+                </li>
+                <li>
+                    <h3>Adsum Originator LLP - As Flutter Developer</h3>
+                    <p>March 2022 - Aug 2022</p>
+                    <p>Phlipped</p>
+                    <p>This is a E-Commerce application.
+                        Where user can sell their own products and can demand what they want also.
+                        In this project i have integrated stripe payment gateway and many Rest APIs</p>
+                    <p>OGas</p>
+                    <p>This is a E-Commerce application.
+                        Where user can order gas cylinder online.
+                        also In this project i have integrated payment gateway and many Rest APIs</p>
+                </li>
+                <li>
+                    <h3>Verdad IT - As Flutter Developer</h3>
+                    <p>March 2021 - Feb 2022</p>
+                    <p>Smarttags</p>
+                    <p>I have done project smart tags here.
+                        Which is used for generate hashtags for instagram.
+                        User can mark them as favourite, save them and also can share them.</p>
+                </li>
+                <li>
+                    <h3>Verdad IT - As Trainee</h3>
+                    <p>Sep 2020 - Feb 2021</p>
+                    <p>As a trainee i have learned very useful things here. i have completed my
+                        full flutter course and project training here for 8 months.</p>
+                </li>
+            </ul>
+        </section>
+
+
+        <footer>
+            <h2>Contact</h2>
+            <p>Email: divyadave789@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/divya-dave-09b099234/">divya-dave-09b099234</a></p>
+            <p>GitHub: <a href="https://github.com/divyadave1205">divyadave1205</a></p>
+        </footer>
     </div>
 </body>
 
